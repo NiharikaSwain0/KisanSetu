@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "919504127317",
+    "project_id": "kisansetu-62a66",
+    "storage_bucket": "kisansetu-62a66.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919504127317:android:c2b0bb53f4dde0d604dbdc",
+        "android_client_info": {
+          "package_name": "com.kisansetu.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCru0Nh7ep_WJuXBjVlCcaqndKKwQWfrjI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

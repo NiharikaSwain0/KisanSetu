@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">KisanSetu</string>
+    <string name="welcome_message">Welcome to KisanSetu</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="farmer">Farmer</string>
+    <string name="customer">Customer</string>
+    <string name="rider">Rider</string>
+    <string name="admin">Admin</string>
+    <string name="email_hint">Email Address</string>
+    <string name="password_hint">Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="full_name_hint">Full Name</string>
+    <string name="phone_hint">Phone Number</string>
+    <string name="address_hint">Address</string>
+    <string name="role_selection_title">Select Your Role</string>
+    <string name="add_product">Add Product</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_price">Price (₹)</string>
+    <string name="product_quantity">Quantity</string>
+    <string name="product_description">Description</string>
+    <string name="upload_image">Upload Product Image</string>
+    <string name="submit">Submit</string>
+    <string name="orders">Orders</string>
+    <string name="cart">Cart</string>
+    <string name="track_order">Track Order</string>
+    <string name="deliveries">Deliveries</string>
+    <string name="picked_up">Picked Up</string>
+    <string name="on_the_way">On the Way</string>
+    <string name="delivered">Delivered</string>
+    <string name="navigation">Navigate</string>
+    <string name="analytics">Analytics</string>
+    <string name="manage_users">Manage Users</string>
+</resources>
