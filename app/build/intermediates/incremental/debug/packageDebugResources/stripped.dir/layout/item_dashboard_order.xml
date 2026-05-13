@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/customerNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customer Name"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/productNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Name"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/quantityTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantity: 0"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/priceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price: ₹ 0"
+            android:textSize="10sp"
+            android:textColor="@color/primary_green" />
+
+        <TextView
+            android:id="@+id/orderTypeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type: Delivery"
+            android:textSize="10sp"
+            android:textStyle="italic" />
+
+        <LinearLayout
+            android:id="@+id/pendingActions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/acceptButton"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@android:drawable/checkbox_on_background"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                app:tint="@color/primary_green" />
+
+            <ImageButton
+                android:id="@+id/rejectButton"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@android:drawable/ic_menu_close_clear_cancel"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                app:tint="@color/accent_orange" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/deliveryActions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="4dp"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/selfDeliveryButton"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:text="Self"
+                android:textSize="9sp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:padding="0dp" />
+
+            <Button
+                android:id="@+id/appDeliveryButton"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:text="App"
+                android:textSize="9sp"
+                android:backgroundTint="@color/primary_green"
+                android:padding="0dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

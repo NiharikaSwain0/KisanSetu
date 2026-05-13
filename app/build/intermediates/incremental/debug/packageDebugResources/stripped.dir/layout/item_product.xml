@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="12dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Full Width Product Image -->
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/productImageView"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="centerCrop"
+            android:src="@android:drawable/ic_menu_gallery"
+            app:shapeAppearanceOverlay="@style/TopRoundedCorners" />
+
+        <!-- Product Details Container -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <!-- Delivery Time Info -->
+            <LinearLayout
+                android:id="@+id/deliveryInfoLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <ImageView
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:src="@android:drawable/ic_menu_mylocation"
+                    app:tint="@color/gray_text" />
+
+                <TextView
+                    android:id="@+id/deliveryTimeTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20 mins"
+                    android:textSize="12sp"
+                    android:layout_marginStart="4dp"
+                    android:textColor="@color/gray_text" />
+            </LinearLayout>
+
+            <!-- Product Name -->
+            <TextView
+                android:id="@+id/productNameTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Onion"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="8dp"
+                app:layout_constrainedWidth="true"
+                app:layout_constraintTop_toBottomOf="@id/deliveryInfoLayout"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/pickButton" />
+
+            <!-- Product Weight/Quantity -->
+            <TextView
+                android:id="@+id/productWeightTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="(450-500 g)"
+                android:textSize="14sp"
+                android:textColor="@color/gray_text"
+                app:layout_constrainedWidth="true"
+                app:layout_constraintTop_toBottomOf="@id/productNameTextView"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/pickButton" />
+
+            <!-- Price Badge -->
+            <TextView
+                android:id="@+id/productPriceBadge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹1"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@drawable/bg_price_badge"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="6dp"
+                android:layout_marginTop="12dp"
+                app:layout_constraintTop_toBottomOf="@id/productWeightTextView"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <!-- MRP and Discount Info -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@id/productPriceBadge"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <TextView
+                    android:id="@+id/productMrpTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MRP ₹29"
+                    android:textSize="12sp"
+                    android:textColor="@color/gray_text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" (incl. of all taxes) "
+                    android:textSize="10sp"
+                    android:textColor="@color/gray_text" />
+
+                <TextView
+                    android:id="@+id/productDiscountTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="₹28 OFF"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/primary_green" />
+            </LinearLayout>
+
+            <!-- Pick Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/pickButton"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pick"
+                android:textColor="@color/pink_red"
+                app:strokeColor="@color/pink_red"
+                app:cornerRadius="12dp"
+                android:textAllCaps="false"
+                app:layout_constraintTop_toTopOf="@id/productPriceBadge"
+                app:layout_constraintBottom_toBottomOf="@id/productPriceBadge"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "com.kisansetu.app-mergeDebugResources-50:/layout/item_category.xml",
+        "source": "com.kisansetu.app-main-53:/layout/item_category.xml"
+    },
+    {
+        "merged": "com.kisansetu.app-mergeDebugResources-50:/layout/activity_order_tracking.xml",
+        "source": "com.kisansetu.app-main-53:/layout/activity_order_tracking.xml"
+    },
+    {
+        "merged": "com.kisansetu.app-mergeDebugResources-50:/layout/item_product.xml",
+        "source": "com.kisansetu.app-main-53:/layout/item_product.xml"
+    },
+    {
+        "merged": "com.kisansetu.app-mergeDebugResources-50:/layout/activity_smart_tools.xml",
+        "source": "com.kisansetu.app-main-53:/layout/activity_smart_tools.xml"
+    },
+    {
+        "merged": "com.kisansetu.app-mergeDebugResources-50:/layout/activity_signup.xml",
+        "source": "com.kisansetu.app-main-53:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "com.kisansetu.app-mergeDebugResources-50:/layout/activity_delivery_detail.xml",
+        "source": "com.kisansetu.app-main-53:/layout/activity_delivery_detail.xml"
+    },
+    {
+        "merged": "com.kisansetu.app-mergeDebugResources-50:/layout/dialog_add_address.xml",
+        "source": "com.kisansetu.app-main-53:/layout/dialog_add_address.xml"
+    },
+    {
+        "merged": "com.kisansetu.app-mergeDebugResources-50:/layout/activity_manage_products.xml",
+        "source": "com.kisansetu.app-main-53:/layout/activity_manage_products.xml"
+    },
+    {
+        "merged": "com.kisansetu.app-mergeDebugResources-50:/layout/activity_login.xml",
+        "source": "com.kisansetu.app-main-53:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.kisansetu.app-mergeDebugResources-50:/layout/item_dashboard_product.xml",
+        "source": "com.kisansetu.app-main-53:/layout/item_dashboard_product.xml"
+    },
+    {
+        "merged": "com.kisansetu.app-mergeDebugResources-50:/layout/item_delivery.xml",
+        "source": "com.kisansetu.app-main-53:/layout/item_delivery.xml"
+    },
+    {
+        "merged": "com.kisansetu.app-mergeDebugResources-50:/layout/activity_map_picker.xml",
+        "source": "com.kisansetu.app-main-53:/layout/activity_map_picker.xml"
+    },
+    {
+        "merged": "com.kisansetu.app-mergeDebugResources-50:/layout/item_farm.xml",
+        "source": "com.kisansetu.app-main-53:/layout/item_farm.xml"
+    },
+    {
+        "merged": "com.kisansetu.app-mergeDebugResources-50:/layout/item_cart.xml",
+        "source": "com.kisansetu.app-main-53:/layout/item_cart.xml"
+    },
+    {
+        "merged": "com.kisansetu.app-mergeDebugResources-50:/layout/activity_farmer_orders.xml",
+        "source": "com.kisansetu.app-main-53:/layout/activity_farmer_orders.xml"
+    },
+    {
+        "merged": "com.kisansetu.app-mergeDebugResources-50:/layout/item_saved_address.xml",
+        "source": "com.kisansetu.app-main-53:/layout/item_saved_address.xml"
+    },
+    {
+        "merged": "com.kisansetu.app-mergeDebugResources-50:/layout/activity_profile.xml",
+        "source": "com.kisansetu.app-main-53:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.kisansetu.app-mergeDebugResources-50:/layout/activity_rider_dashboard.xml",
+        "source": "com.kisansetu.app-main-53:/layout/activity_rider_dashboard.xml"
+    },
+    {
+        "merged": "com.kisansetu.app-mergeDebugResources-50:/layout/activity_splash.xml",
+        "source": "com.kisansetu.app-main-53:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.kisansetu.app-mergeDebugResources-50:/layout/item_order.xml",
+        "source": "com.kisansetu.app-main-53:/layout/item_order.xml"
+    },
+    {
+        "merged": "com.kisansetu.app-mergeDebugResources-50:/layout/activity_product_detail.xml",
+        "source": "com.kisansetu.app-main-53:/layout/activity_product_detail.xml"
+    },
+    {
+        "merged": "com.kisansetu.app-mergeDebugResources-50:/layout/activity_farm_detail.xml",
+        "source": "com.kisansetu.app-main-53:/layout/activity_farm_detail.xml"
+    },
+    {
+        "merged": "com.kisansetu.app-mergeDebugResources-50:/layout/activity_customer_dashboard.xml",
+        "source": "com.kisansetu.app-main-53:/layout/activity_customer_dashboard.xml"
+    },
+    {
+        "merged": "com.kisansetu.app-mergeDebugResources-50:/layout/activity_cart.xml",
+        "source": "com.kisansetu.app-main-53:/layout/activity_cart.xml"
+    },
+    {
+        "merged": "com.kisansetu.app-mergeDebugResources-50:/layout/activity_farmer_dashboard.xml",
+        "source": "com.kisansetu.app-main-53:/layout/activity_farmer_dashboard.xml"
+    },
+    {
+        "merged": "com.kisansetu.app-mergeDebugResources-50:/layout/item_dashboard_order.xml",
+        "source": "com.kisansetu.app-main-53:/layout/item_dashboard_order.xml"
+    },
+    {
+        "merged": "com.kisansetu.app-mergeDebugResources-50:/layout/activity_admin_dashboard.xml",
+        "source": "com.kisansetu.app-main-53:/layout/activity_admin_dashboard.xml"
+    },
+    {
+        "merged": "com.kisansetu.app-mergeDebugResources-50:/layout/activity_add_product.xml",
+        "source": "com.kisansetu.app-main-53:/layout/activity_add_product.xml"
+    }
+]

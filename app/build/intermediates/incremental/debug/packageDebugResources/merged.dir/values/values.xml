@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="user_roles">
+        <item>Farmer</item>
+        <item>Customer</item>
+        <item>Rider</item>
+        <item>Admin</item>
+    </string-array>
+    <color name="accent_orange">#FB8C00</color>
+    <color name="background_light">#F1F8E9</color>
+    <color name="black">#FF000000</color>
+    <color name="gray_text">#757575</color>
+    <color name="light_gray">#E0E0E0</color>
+    <color name="pink_red">#C2185B</color>
+    <color name="primary_dark_green">#005005</color>
+    <color name="primary_green">#2E7D32</color>
+    <color name="primary_light_green">#60AD5E</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="rider_accent_lime">#D4FF00</color>
+    <color name="rider_card_bg">#1E1E1E</color>
+    <color name="rider_dark_bg">#121212</color>
+    <color name="rider_reject_red">#FF4B4B</color>
+    <color name="rider_surface">#252525</color>
+    <color name="rider_text_gray">#B0B0B0</color>
+    <color name="rider_text_white">#FFFFFF</color>
+    <color name="secondary_green">#81C784</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="add_product">Add Product</string>
+    <string name="address_hint">Address</string>
+    <string name="admin">Admin</string>
+    <string name="analytics">Analytics</string>
+    <string name="app_name">KisanSetu</string>
+    <string name="cart">Cart</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="customer">Customer</string>
+    <string name="delivered">Delivered</string>
+    <string name="deliveries">Deliveries</string>
+    <string name="email_hint">Email Address</string>
+    <string name="farmer">Farmer</string>
+    <string name="full_name_hint">Full Name</string>
+    <string name="gcm_defaultSenderId" translatable="false">919504127317</string>
+    <string name="google_api_key" translatable="false">AIzaSyCru0Nh7ep_WJuXBjVlCcaqndKKwQWfrjI</string>
+    <string name="google_app_id" translatable="false">1:919504127317:android:c2b0bb53f4dde0d604dbdc</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCru0Nh7ep_WJuXBjVlCcaqndKKwQWfrjI</string>
+    <string name="google_storage_bucket" translatable="false">kisansetu-62a66.firebasestorage.app</string>
+    <string name="login">Login</string>
+    <string name="manage_users">Manage Users</string>
+    <string name="navigation">Navigate</string>
+    <string name="on_the_way">On the Way</string>
+    <string name="orders">Orders</string>
+    <string name="password_hint">Password</string>
+    <string name="phone_hint">Phone Number</string>
+    <string name="picked_up">Picked Up</string>
+    <string name="product_description">Description</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_price">Price (₹)</string>
+    <string name="product_quantity">Quantity</string>
+    <string name="project_id" translatable="false">kisansetu-62a66</string>
+    <string name="rider">Rider</string>
+    <string name="role_selection_title">Select Your Role</string>
+    <string name="signup">Sign Up</string>
+    <string name="submit">Submit</string>
+    <string name="track_order">Track Order</string>
+    <string name="upload_image">Upload Product Image</string>
+    <string name="welcome_message">Welcome to KisanSetu</string>
+    <style name="CircleImage" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="RoundedImage" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+    <style name="Theme.KisanSetu" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        
+        <item name="colorPrimary">@color/primary_green</item>
+        <item name="colorPrimaryVariant">@color/primary_dark_green</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/secondary_green</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+    <style name="Theme.KisanSetu.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="TopRoundedCorners" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">16dp</item>
+        <item name="cornerSizeTopRight">16dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+</resources>

@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.kisansetu.app-mergeDebugResources-49:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\nihar\\.gradle\\caches\\8.10\\transforms\\82b6e5e282ea93906e7d31767398dd3d\\transformed\\appcompat-1.6.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

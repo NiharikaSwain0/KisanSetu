@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.kisansetu.app-mergeDebugResources-49:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\nihar\\.gradle\\caches\\8.10\\transforms\\1431fd4aeec9ed7bfa00e49e8e2dc3fc\\transformed\\material-1.11.0\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    }
+                }
+            ]
+        }
+    ]
+}

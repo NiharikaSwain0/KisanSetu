@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.kisansetu.app-mergeDebugResources-49:/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\nihar\\.gradle\\caches\\8.10\\transforms\\82b6e5e282ea93906e7d31767398dd3d\\transformed\\appcompat-1.6.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}
